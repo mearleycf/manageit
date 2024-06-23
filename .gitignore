@@ -5,6 +5,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+pnpm-debug.log*
 .pnpm-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
@@ -78,6 +79,7 @@ web_modules/
 .env.test.local
 .env.production.local
 .env.local
+.env.production
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -88,8 +90,12 @@ web_modules/
 out
 
 # Nuxt.js build / generate output
+# also covers build output for astro
 .nuxt
 dist
+
+# generated types from astro
+.astro/
 
 # Gatsby files
 .cache/
@@ -122,9 +128,21 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+# vscode settings that are local
+.vscode/settings.json
+
 # yarn v2
 .yarn/cache
 .yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# virtual environment for python
+.venv
+
+# macOS specific files
+.DS_Store
+
+# jetbrains setting folder
+.idea/

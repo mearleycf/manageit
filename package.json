@@ -1,0 +1,46 @@
+{
+  "name": "manageit-kanban",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "astro": "astro",
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.7.0",
+    "@astrojs/sitemap": "^3.1.6",
+    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/vercel": "^7.7.1",
+    "@fontsource-variable/inter": "^5.0.18",
+    "@fontsource/lilita-one": "^5.0.20",
+    "@fontsource/righteous": "^5.0.20",
+    "astro": "^4.11.0",
+    "astro-icon": "^1.1.0",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.5.2"
+  },
+  "packageManager": "yarn@4.3.1+sha256.2535167e742927e1d2a1610d5004576e4e8f764d2ca5470d19536790f55cd6e2",
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.5.0",
+    "@iconify-json/simple-icons": "^1.1.106",
+    "@iconify-json/solar": "^1.1.9",
+    "@stylistic/eslint-plugin": "^2.2.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "eslint": "^9.5.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.6.0",
+    "prettier": "^3.3.2",
+    "prettier-plugin-astro": "^0.14.0",
+    "prettier-plugin-astro-organize-imports": "^0.4.8",
+    "prettier-plugin-organize-attributes": "^1.0.0",
+    "prettier-plugin-packagejson": "^2.5.0",
+    "prettier-plugin-sort-imports": "^1.8.5",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "typescript-eslint": "^7.13.1"
+  }
+}
